@@ -7,10 +7,10 @@ password = 'moments9021'
 
 def main(branch, password):
     try:
+        os.system('git pull origin master:master')
         os.system('git init')
         os.system('git add .')
         os.system('git commit -m "$(date)"')
-        os.system('git pull origin master:master')
         child = pexpect.spawn('git push origin master:%s' % branch)
         child.expect('.*name.*')
         child.sendline('1230221121@stu.cjlu.edu.cn')
