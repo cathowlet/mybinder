@@ -11,7 +11,6 @@ def main(branch, password):
         os.system('git add .')
         os.system('git commit -m "$(date)"')
         child = pexpect.spawn('git push origin master:%s' % branch)
-        child.logfile = sys.stdout
         child.expect('.*name.*')
         child.sendline('1230221121@stu.cjlu.edu.cn')
         child.expect('.*word.*')
