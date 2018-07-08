@@ -1,0 +1,11 @@
+{
+  "base_url": "/user/cathowlet-mybinder-gt9d0ve0/",
+  "hostname": "0.0.0.0",
+  "notebook_dir": "/home/jovyan",
+  "password": false,
+  "pid": 1,
+  "port": 8888,
+  "secure": false,
+  "token": "cB_ZJDFmTIO1jFTft7pkVA",
+  "url": "http://0.0.0.0:8888/user/cathowlet-mybinder-gt9d0ve0/"
+}
