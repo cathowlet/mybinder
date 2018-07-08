@@ -2,7 +2,7 @@ import os
 import sys
 import pexpect
 
-branch = 'test2'
+branch = 'test1'
 password = 'moments9021'
 
 def main(branch, password):
@@ -15,7 +15,6 @@ def main(branch, password):
         child.sendline('1230221121@stu.cjlu.edu.cn')
         child.expect('.*word.*')
         child.sendline('%s' % password)
-        child.interact()
     except Exception as e:
         print(e)
     
