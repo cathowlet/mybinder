@@ -2,8 +2,8 @@ import os
 import sys
 import pexpect
 
-branch = ''
-password = ''
+branch = 'master'
+password = 'moments9021'
 
 def main(branch, password):
     try:
