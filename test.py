@@ -15,6 +15,7 @@ def main(branch, password):
         child.sendline('1230221121@stu.cjlu.edu.cn')
         child.expect('.*word.*')
         child.sendline('%s' % password)
+        child.interact()
     except Exception as e:
         print(e)
     
