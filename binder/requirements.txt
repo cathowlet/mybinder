@@ -4,3 +4,4 @@ numpy
 pip==18
 sklearn
 scipy
+fastai
